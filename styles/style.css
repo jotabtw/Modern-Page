@@ -41,21 +41,21 @@ body{
     display: none;
 }
 
-.bi-moon{
-    display: none;
-}
-
 .dark {
      background-color: #263238;
      color: #FFFFFF;
 }
 
-.dark .bi-sun{
+.bi-sun{
     display: none;
 }
 
 .dark .bi-moon{
-    display:block;
+    display:none;
+}
+
+.dark .bi-sun{
+    display: block;
 }
 
 .container_trocarCor{
